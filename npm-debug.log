@@ -1,220 +1,45 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/node',
-1 verbose cli   '/usr/bin/npm',
-1 verbose cli   'install',
-1 verbose cli   'when',
-1 verbose cli   'you',
-1 verbose cli   'have',
-1 verbose cli   'the',
-1 verbose cli   'package.json' ]
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'start-server' ]
 2 info using npm@3.5.2
 3 info using node@v8.10.0
-4 silly loadCurrentTree Starting
-5 silly install loadCurrentTree
-6 silly install readLocalPackageData
-7 silly fetchPackageMetaData when
-8 silly fetchPackageMetaData you
-9 silly fetchPackageMetaData have
-10 silly fetchPackageMetaData the
-11 silly fetchPackageMetaData package.json
-12 silly fetchNamedPackageData when
-13 silly mapToRegistry name when
-14 silly mapToRegistry using default registry
-15 silly mapToRegistry registry https://registry.npmjs.org/
-16 silly mapToRegistry uri https://registry.npmjs.org/when
-17 silly fetchNamedPackageData you
-18 silly mapToRegistry name you
-19 silly mapToRegistry using default registry
-20 silly mapToRegistry registry https://registry.npmjs.org/
-21 silly mapToRegistry uri https://registry.npmjs.org/you
-22 silly fetchNamedPackageData have
-23 silly mapToRegistry name have
-24 silly mapToRegistry using default registry
-25 silly mapToRegistry registry https://registry.npmjs.org/
-26 silly mapToRegistry uri https://registry.npmjs.org/have
-27 silly fetchNamedPackageData the
-28 silly mapToRegistry name the
-29 silly mapToRegistry using default registry
-30 silly mapToRegistry registry https://registry.npmjs.org/
-31 silly mapToRegistry uri https://registry.npmjs.org/the
-32 silly fetchOtherPackageData package.json
-33 silly cache add args [ 'package.json', null ]
-34 verbose cache add spec package.json
-35 verbose request uri https://registry.npmjs.org/when
-36 verbose request no auth needed
-37 info attempt registry request try #1 at 4:51:15 PM
-38 verbose request id 1120d9025ed99dd5
-39 http request GET https://registry.npmjs.org/when
-40 verbose request uri https://registry.npmjs.org/you
-41 verbose request no auth needed
-42 info attempt registry request try #1 at 4:51:16 PM
-43 http request GET https://registry.npmjs.org/you
-44 verbose request uri https://registry.npmjs.org/have
-45 verbose request no auth needed
-46 info attempt registry request try #1 at 4:51:16 PM
-47 http request GET https://registry.npmjs.org/have
-48 verbose request uri https://registry.npmjs.org/the
-49 verbose request no auth needed
-50 info attempt registry request try #1 at 4:51:16 PM
-51 http request GET https://registry.npmjs.org/the
-52 silly cache add parsed spec Result {
-52 silly cache add   raw: 'package.json',
-52 silly cache add   scope: null,
-52 silly cache add   name: null,
-52 silly cache add   rawSpec: 'package.json',
-52 silly cache add   spec: '/alx-files_manager/package.json',
-52 silly cache add   type: 'local' }
-53 silly addLocalTarball shasum (computed) f8337ef3fd975c9dadbd66e3e33f4b52e253c77d
-54 verbose addTmpTarball /alx-files_manager/package.json not in flight; adding
-55 verbose addTmpTarball validating metadata from /alx-files_manager/package.json
-56 verbose tar unpack /alx-files_manager/package.json
-57 verbose tar unpacking to /tmp/npm-1950-b33916c1/unpack-becdcb57
-58 silly gentlyRm /tmp/npm-1950-b33916c1/unpack-becdcb57 is being purged
-59 verbose gentlyRm don't care about contents; nuking /tmp/npm-1950-b33916c1/unpack-becdcb57
-60 silly gunzTarPerm modes [ '755', '644' ]
-61 error not a package /alx-files_manager/package.json
-62 error addLocal Could not install /alx-files_manager/package.json
-63 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/tmp/npm-1950-b33916c1/unpack-becdcb57/package.json'
-63 silly fetchPackageMetaData  error for package.json { Error: ENOENT: no such file or directory, open '/tmp/npm-1950-b33916c1/unpack-becdcb57/package.json'
-63 silly fetchPackageMetaData   errno: -2,
-63 silly fetchPackageMetaData   code: 'ENOENT',
-63 silly fetchPackageMetaData   syscall: 'open',
-63 silly fetchPackageMetaData   path: '/tmp/npm-1950-b33916c1/unpack-becdcb57/package.json' }
-64 http 200 https://registry.npmjs.org/when
-65 verbose headers { date: 'Thu, 06 Jun 2024 16:51:16 GMT',
-65 verbose headers   'content-type': 'application/json',
-65 verbose headers   'transfer-encoding': 'chunked',
-65 verbose headers   connection: 'keep-alive',
-65 verbose headers   'cf-ray': '88f9e7fb882a07ff-IAD',
-65 verbose headers   'cf-cache-status': 'HIT',
-65 verbose headers   'access-control-allow-origin': '*',
-65 verbose headers   age: '52',
-65 verbose headers   'cache-control': 'public, max-age=300',
-65 verbose headers   etag: 'W/"bbb3fe4c8cce376e436629f3e904ba29"',
-65 verbose headers   'last-modified': 'Wed, 29 Jun 2022 01:26:08 GMT',
-65 verbose headers   vary: 'accept-encoding, accept',
-65 verbose headers   server: 'cloudflare',
-65 verbose headers   'content-encoding': 'gzip' }
-66 silly get cb [ 200,
-66 silly get   { date: 'Thu, 06 Jun 2024 16:51:16 GMT',
-66 silly get     'content-type': 'application/json',
-66 silly get     'transfer-encoding': 'chunked',
-66 silly get     connection: 'keep-alive',
-66 silly get     'cf-ray': '88f9e7fb882a07ff-IAD',
-66 silly get     'cf-cache-status': 'HIT',
-66 silly get     'access-control-allow-origin': '*',
-66 silly get     age: '52',
-66 silly get     'cache-control': 'public, max-age=300',
-66 silly get     etag: 'W/"bbb3fe4c8cce376e436629f3e904ba29"',
-66 silly get     'last-modified': 'Wed, 29 Jun 2022 01:26:08 GMT',
-66 silly get     vary: 'accept-encoding, accept',
-66 silly get     server: 'cloudflare',
-66 silly get     'content-encoding': 'gzip' } ]
-67 verbose get saving when to /root/.npm/registry.npmjs.org/when/.cache.json
-68 http 200 https://registry.npmjs.org/the
-69 verbose headers { date: 'Thu, 06 Jun 2024 16:51:16 GMT',
-69 verbose headers   'content-type': 'application/json',
-69 verbose headers   'transfer-encoding': 'chunked',
-69 verbose headers   connection: 'keep-alive',
-69 verbose headers   'cf-ray': '88f9e7fb8b3b05a4-IAD',
-69 verbose headers   'cf-cache-status': 'REVALIDATED',
-69 verbose headers   'access-control-allow-origin': '*',
-69 verbose headers   'cache-control': 'public, max-age=300',
-69 verbose headers   etag: 'W/"2015fc67d9c7552ef2f59d31688f5972"',
-69 verbose headers   'last-modified': 'Mon, 27 Jun 2022 05:55:38 GMT',
-69 verbose headers   vary: 'accept-encoding, accept',
-69 verbose headers   server: 'cloudflare',
-69 verbose headers   'content-encoding': 'gzip' }
-70 silly get cb [ 200,
-70 silly get   { date: 'Thu, 06 Jun 2024 16:51:16 GMT',
-70 silly get     'content-type': 'application/json',
-70 silly get     'transfer-encoding': 'chunked',
-70 silly get     connection: 'keep-alive',
-70 silly get     'cf-ray': '88f9e7fb8b3b05a4-IAD',
-70 silly get     'cf-cache-status': 'REVALIDATED',
-70 silly get     'access-control-allow-origin': '*',
-70 silly get     'cache-control': 'public, max-age=300',
-70 silly get     etag: 'W/"2015fc67d9c7552ef2f59d31688f5972"',
-70 silly get     'last-modified': 'Mon, 27 Jun 2022 05:55:38 GMT',
-70 silly get     vary: 'accept-encoding, accept',
-70 silly get     server: 'cloudflare',
-70 silly get     'content-encoding': 'gzip' } ]
-71 verbose get saving the to /root/.npm/registry.npmjs.org/the/.cache.json
-72 http 200 https://registry.npmjs.org/you
-73 verbose headers { date: 'Thu, 06 Jun 2024 16:51:16 GMT',
-73 verbose headers   'content-type': 'application/json',
-73 verbose headers   'transfer-encoding': 'chunked',
-73 verbose headers   connection: 'keep-alive',
-73 verbose headers   'cf-ray': '88f9e7fb8f5b596e-IAD',
-73 verbose headers   'cf-cache-status': 'REVALIDATED',
-73 verbose headers   'access-control-allow-origin': '*',
-73 verbose headers   'cache-control': 'public, max-age=300',
-73 verbose headers   etag: 'W/"fbca06d5991132675179199f92c7c341"',
-73 verbose headers   'last-modified': 'Wed, 29 Jun 2022 08:00:40 GMT',
-73 verbose headers   vary: 'accept-encoding, accept',
-73 verbose headers   server: 'cloudflare',
-73 verbose headers   'content-encoding': 'gzip' }
-74 silly get cb [ 200,
-74 silly get   { date: 'Thu, 06 Jun 2024 16:51:16 GMT',
-74 silly get     'content-type': 'application/json',
-74 silly get     'transfer-encoding': 'chunked',
-74 silly get     connection: 'keep-alive',
-74 silly get     'cf-ray': '88f9e7fb8f5b596e-IAD',
-74 silly get     'cf-cache-status': 'REVALIDATED',
-74 silly get     'access-control-allow-origin': '*',
-74 silly get     'cache-control': 'public, max-age=300',
-74 silly get     etag: 'W/"fbca06d5991132675179199f92c7c341"',
-74 silly get     'last-modified': 'Wed, 29 Jun 2022 08:00:40 GMT',
-74 silly get     vary: 'accept-encoding, accept',
-74 silly get     server: 'cloudflare',
-74 silly get     'content-encoding': 'gzip' } ]
-75 verbose get saving you to /root/.npm/registry.npmjs.org/you/.cache.json
-76 http 200 https://registry.npmjs.org/have
-77 verbose headers { date: 'Thu, 06 Jun 2024 16:51:16 GMT',
-77 verbose headers   'content-type': 'application/json',
-77 verbose headers   'transfer-encoding': 'chunked',
-77 verbose headers   connection: 'keep-alive',
-77 verbose headers   'cf-ray': '88f9e7fb8ce08245-IAD',
-77 verbose headers   'cf-cache-status': 'REVALIDATED',
-77 verbose headers   'access-control-allow-origin': '*',
-77 verbose headers   'cache-control': 'public, max-age=300',
-77 verbose headers   etag: 'W/"8de5d13fd68fa33b4cf1efb27a86f254"',
-77 verbose headers   'last-modified': 'Sat, 18 Jun 2022 19:35:31 GMT',
-77 verbose headers   vary: 'accept-encoding, accept',
-77 verbose headers   server: 'cloudflare',
-77 verbose headers   'content-encoding': 'gzip' }
-78 silly get cb [ 200,
-78 silly get   { date: 'Thu, 06 Jun 2024 16:51:16 GMT',
-78 silly get     'content-type': 'application/json',
-78 silly get     'transfer-encoding': 'chunked',
-78 silly get     connection: 'keep-alive',
-78 silly get     'cf-ray': '88f9e7fb8ce08245-IAD',
-78 silly get     'cf-cache-status': 'REVALIDATED',
-78 silly get     'access-control-allow-origin': '*',
-78 silly get     'cache-control': 'public, max-age=300',
-78 silly get     etag: 'W/"8de5d13fd68fa33b4cf1efb27a86f254"',
-78 silly get     'last-modified': 'Sat, 18 Jun 2022 19:35:31 GMT',
-78 silly get     vary: 'accept-encoding, accept',
-78 silly get     server: 'cloudflare',
-78 silly get     'content-encoding': 'gzip' } ]
-79 verbose get saving have to /root/.npm/registry.npmjs.org/have/.cache.json
-80 silly rollbackFailedOptional Starting
-81 silly rollbackFailedOptional Finishing
-82 silly runTopLevelLifecycles Starting
-83 silly runTopLevelLifecycles Finishing
-84 silly install printInstalled
-85 verbose stack Error: ENOENT: no such file or directory, open '/tmp/npm-1950-b33916c1/unpack-becdcb57/package.json'
-86 verbose cwd /alx-files_manager
-87 error Linux 5.3.0-1032-aws
-88 error argv "/usr/bin/node" "/usr/bin/npm" "install" "when" "you" "have" "the" "package.json"
-89 error node v8.10.0
-90 error npm  v3.5.2
-91 error path /tmp/npm-1950-b33916c1/unpack-becdcb57/package.json
-92 error code ENOENT
-93 error errno -2
-94 error syscall open
-95 error enoent ENOENT: no such file or directory, open '/tmp/npm-1950-b33916c1/unpack-becdcb57/package.json'
-96 error enoent ENOENT: no such file or directory, open '/tmp/npm-1950-b33916c1/unpack-becdcb57/package.json'
-96 error enoent This is most likely not a problem with npm itself
-96 error enoent and is related to npm not being able to find a file.
-97 verbose exit [ -2, true ]
+4 verbose run-script [ 'prestart-server', 'start-server', 'poststart-server' ]
+5 info lifecycle files_manager@1.0.0~prestart-server: files_manager@1.0.0
+6 silly lifecycle files_manager@1.0.0~prestart-server: no script for prestart-server, continuing
+7 info lifecycle files_manager@1.0.0~start-server: files_manager@1.0.0
+8 verbose lifecycle files_manager@1.0.0~start-server: unsafe-perm in lifecycle true
+9 verbose lifecycle files_manager@1.0.0~start-server: PATH: /usr/share/npm/bin/node-gyp-bin:/alx-files_manager/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+10 verbose lifecycle files_manager@1.0.0~start-server: CWD: /alx-files_manager
+11 silly lifecycle files_manager@1.0.0~start-server: Args: [ '-c',
+11 silly lifecycle   'nodemon --exec babel-node --presets @babel/preset-env ./server.js' ]
+12 info lifecycle files_manager@1.0.0~start-server: Failed to exec start-server script
+13 verbose stack Error: files_manager@1.0.0 start-server: `nodemon --exec babel-node --presets @babel/preset-env ./server.js`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:17:16)
+13 verbose stack     at emitTwo (events.js:126:13)
+13 verbose stack     at ChildProcess.emit (events.js:214:7)
+13 verbose stack     at maybeClose (internal/child_process.js:925:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+14 verbose pkgid files_manager@1.0.0
+15 verbose cwd /alx-files_manager
+16 error Linux 5.3.0-1032-aws
+17 error argv "/usr/bin/node" "/usr/bin/npm" "run" "start-server"
+18 error node v8.10.0
+19 error npm  v3.5.2
+20 error file sh
+21 error code ELIFECYCLE
+22 error errno ENOENT
+23 error syscall spawn
+24 error files_manager@1.0.0 start-server: `nodemon --exec babel-node --presets @babel/preset-env ./server.js`
+24 error spawn ENOENT
+25 error Failed at the files_manager@1.0.0 start-server script 'nodemon --exec babel-node --presets @babel/preset-env ./server.js'.
+25 error Make sure you have the latest version of node.js and npm installed.
+25 error If you do, this is most likely a problem with the files_manager package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     nodemon --exec babel-node --presets @babel/preset-env ./server.js
+25 error You can get information on how to open an issue for this project with:
+25 error     npm bugs files_manager
+25 error Or if that isn't available, you can get their info via:
+25 error     npm owner ls files_manager
+25 error There is likely additional logging output above.
+26 verbose exit [ 1, true ]
